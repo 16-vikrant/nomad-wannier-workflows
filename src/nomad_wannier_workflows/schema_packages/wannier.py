@@ -13,7 +13,7 @@ from simulationworkflowschema.general import SimulationWorkflow
 from nomad.datamodel.metainfo.plot import PlotSection, PlotlyFigure
 
 configuration = config.get_plugin_entry_point(
-    'nomad_neb_workflows.schema_packages:nomad_neb_workflows_plugin'
+    'nomad_wannier_workflows.schema_packages:nomad_wannier_workflows_plugin'
 )
 
 m_package = SchemaPackage()

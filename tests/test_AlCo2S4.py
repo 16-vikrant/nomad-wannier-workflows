@@ -18,7 +18,7 @@
 from nomad.parsing.parser import ArchiveParser
 from nomad.datamodel.context import ClientContext
 
-from nomad_neb_workflows.schema_packages.neb import NEBWorkflow
+from nomad_wannier_workflows.schema_packages.neb import NEBWorkflow
 
 from .conftest import LOGGER, get_archives
 

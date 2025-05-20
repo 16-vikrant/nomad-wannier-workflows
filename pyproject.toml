@@ -13,8 +13,8 @@ classifiers = [
     "Programming Language :: Python :: 3.12",
     "License :: OSI Approved :: Apache Software License",
 ]
-name = "nomad-neb-workflows"
-description = "A NOMAD plugin containing the section definitions of a standard Nudged Elastic Band (NEB) workflow."
+name = "nomad-wannier-workflows"
+description = "A NOMAD plugin containing the section definitions of a standard DFT+Wannier workflow."
 version = "0.1.0"
 readme = "README.rst"
 requires-python = ">=3.9"
@@ -35,9 +35,9 @@ dependencies = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/FAIRmat-NFDI/nomad-neb-workflows"
-"Bug Tracker" = "https://github.com/FAIRmat-NFDI/nomad-neb-workflows/issues"
-"Documentation" = "https://FAIRmat-NFDI.github.io/nomad-neb-workflows/"
+"Homepage" = "https://github.com/FAIRmat-NFDI/nomad-wannier-workflows"
+"Bug Tracker" = "https://github.com/FAIRmat-NFDI/nomad-wannier-workflows/issues"
+"Documentation" = "https://FAIRmat-NFDI.github.io/nomad-wannier-workflows/"
 
 [project.optional-dependencies]
 dev = [
@@ -131,6 +131,6 @@ where = ["src"]
 
 [project.entry-points.'nomad.plugin']
 
-nomad_neb_workflows_plugin = "nomad_neb_workflows.schema_packages:nomad_neb_workflows_plugin"
+nomad_wannier_workflows_plugin = "nomad_wannier_workflows.schema_packages:nomad_wannier_workflows_plugin"
 
 
